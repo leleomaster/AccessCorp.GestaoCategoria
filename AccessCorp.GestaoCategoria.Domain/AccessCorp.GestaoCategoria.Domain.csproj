@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Campos.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="Enum\TipoCampos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubCategoria.cs" />
+    <Compile Include="TextoCampo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Business\" />

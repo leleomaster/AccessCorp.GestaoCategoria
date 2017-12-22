@@ -40,7 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementations\Campos.cs" />
+    <Compile Include="Implementations\Categoria.cs" />
+    <Compile Include="Implementations\SubCategoria.cs" />
+    <Compile Include="Implementations\TextoCampo.cs" />
+    <Compile Include="Interfaces\ICampos.cs" />
+    <Compile Include="Interfaces\ICategoria.cs" />
+    <Compile Include="Interfaces\ISubCategoria.cs" />
+    <Compile Include="Interfaces\ITextoCampo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccessCorp.GestaoCategoria.EntityFramework\AccessCorp.GestaoCategoria.EntityFramework.csproj">
+      <Project>{ef4b8c32-1267-423d-8ebb-e83375adf2b4}</Project>
+      <Name>AccessCorp.GestaoCategoria.EntityFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
