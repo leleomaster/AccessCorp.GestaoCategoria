@@ -15,6 +15,6 @@ namespace AccessCorp.GestaoCategoria.EntityFramework.Interfaces
         IEnumerable<T> GetAll();
         T GetById(object id);
         IEnumerable<T> Where(Expression<Func<T, bool>> expression);
-        IEnumerable<T> OrderBy(Expression<Func<T, bool>> expression);
+        IEnumerable<T> OrderBy(Expression<System.Func<T, bool>> expression);
     }
 }
